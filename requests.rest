@@ -1,0 +1,10 @@
+GET http://localhost:3001/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoia2hhbGlsIiwiaWF0IjoxNjQ5MTExNzcwLCJleHAiOjE2NDkxMTE3ODV9.j-AsCwvoytoP77DKu-jlTxQXczCmHUX2iwBOMBLqppI
+
+###
+POST http://localhost:4001/login
+Content-Type: application/json
+
+{
+    "username": "khalil"
+}
